@@ -29,7 +29,7 @@ const UserPostsScreen = ({ route }) => {
   };
 
   const renderPostItem = ({ item }) => (
-    <View style={{ padding: 16, borderBottomWidth: 1,backgroundColor:"white" ,margin:20}}>
+    <View style={{ padding: 16,backgroundColor:"white" ,margin:20,borderRadius:10}}>
       <Text style={{ fontWeight: 'bold' }}>{item.title}</Text>
       <Text>{item.body}</Text>
     </View>
